@@ -18,9 +18,11 @@ File Used: Unemployment in India
 Column Name	Description
 
 State	Indian state / region
-Date	Data recording date
-Estimated Unemployment Rate (%)	Percentage of unemployed individuals
-Estimated Employed	Estimated number of employed people
+
+Date	                                    Data recording date
+
+Estimated Unemployment Rate (%)	         Percentage of unemployed individuals
+Estimated Employed	                     Estimated number of employed people
 Estimated Labour Participation Rate (%)	Workforce participation percentage
 
 Data Cleaning & Preprocessing Performed
@@ -42,9 +44,13 @@ Correlation analysis between key parameters
 Visualizations Included
 
 ✔ State-wise unemployment rate — Line Chart
+
 ✔ Regional comparison — Bar Chart
+
 ✔ COVID impact (pre vs during) — Box Plot
+
 ✔ National monthly unemployment trend — Time Series Plot
+
 ✔ Labour Participation vs Unemployment — Correlation Heatmap
 
 Final Insights & Recommendations
@@ -72,6 +78,7 @@ How to Run
 4.Interpret results for report submission
 
 Internship Details
+
 Domain: Data Science
 Platform: CodeAlpha
 Task: Unemployment Analysis in India

@@ -1,56 +1,77 @@
-Unemployment Analysis in India — CodeAlpha Internship Task 2
+CodeAlpha Internship — Task 2
 
-This project analyzes unemployment trends in India using publicly available unemployment datasets. The goal is to understand regional variations, monthly patterns, and the major spike during the Covid-19 pandemic.
+Unemployment Analysis in India using Python
 
-Dataset
-Source: Unemployment data for India
-File Used: Unemployment_Rate_upto_11_2020.csv
+Objective
 
-Features:
-Column	Description
-Date	Time of data record
+Analyze unemployment data in India to understand:
+
+Regional unemployment variation
+
+Monthly/Yearly trends
+
+The impact of COVID-19 (2020–2021) on unemployment rates
+
+Dataset Information
+File Used: Unemployment in India
+
+Column Name	Description
+
 State	Indian state / region
-Unemployment Rate	Percentage of unemployed individuals
-Employed	Estimated employed population
-Labour Participation Rate	Economic participation rate
+Date	Data recording date
+Estimated Unemployment Rate (%)	Percentage of unemployed individuals
+Estimated Employed	Estimated number of employed people
+Estimated Labour Participation Rate (%)	Workforce participation percentage
 
-Data Cleaning Steps
-1) Converted Date column into proper datetime format
-  
-2) Removed duplicate/unusable records
- 
-3) Standardized feature names
+Data Cleaning & Preprocessing Performed
 
-4) Filtered missing unemployment values
+Converted Date → datetime
 
-Exploratory Data Analysis
+Removed invalid/missing unemployment records
 
-1️) Trend visualization across states
+Renamed columns for consistency
 
-2️) State-wise unemployment comparison
+Filtered only required features
 
-3️) Pre-Covid vs During-Covid trend difference
-
-4️) National monthly unemployment rate change
-
-Findings / Insights
-Massive unemployment spike occurred during March–May 2020 due to lockdown.
-Urban states showed higher unemployment volatility than rural-focused states.
-Recovery started slowly but unemployment remained unstable for months.
-Seasonal and regional patterns are strongly visible.
+Analysis Performed (EDA)
+Trend analysis by state
+Year-wise unemployment shift
+COVID-19 period vs Pre-COVID comparison
+Correlation analysis between key parameters
 
 Visualizations Included
-Line chart: State-wise unemployment trends
-Bar chart: Average unemployment by state
-Box plot: Covid-19 impact comparison
-Time series chart: Monthly national unemployment trend
-Seasonal decomposition
 
-Output File
-Cleaned_Unemployment_India.csv — processed dataset saved after cleaning
-Python (Pandas, NumPy)
-Matplotlib, Seaborn
-Statsmodels (Seasonal decomposition)
+✔ State-wise unemployment rate — Line Chart
+✔ Regional comparison — Bar Chart
+✔ COVID impact (pre vs during) — Box Plot
+✔ National monthly unemployment trend — Time Series Plot
+✔ Labour Participation vs Unemployment — Correlation Heatmap
 
-Conclusion
-India experienced one of the highest unemployment surges in decades during the Covid-19 lockdown. Although the situation improved later, employment instability continued throughout 2020.
+Final Insights & Recommendations
+Massive spike in unemployment during early COVID-19 lockdowns.
+
+Some states consistently show higher unemployment — indicating structural issues.
+
+Moderate negative correlation between unemployment rate & labour participation — jobs drop ⇒ people stop seeking work.
+
+Recommended:
+Region-specific job creation programs
+
+Upskilling and industry-aligned training
+
+Continuous monitoring post-pandemic
+
+How to Run
+
+1. Upload the Python script/notebook and dataset (Colab/Jupyter)
+
+2. Run all cells
+   
+3. View generated charts + printed observations
+
+4.Interpret results for report submission
+
+Internship Details
+Domain: Data Science
+Platform: CodeAlpha
+Task: Unemployment Analysis in India

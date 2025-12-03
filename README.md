@@ -15,15 +15,22 @@ Employed	Estimated employed population
 Labour Participation Rate	Economic participation rate
 
 Data Cleaning Steps
-✔ Converted Date column into proper datetime format
-✔ Removed duplicate/unusable records
-✔ Standardized feature names
-✔ Filtered missing unemployment values
+1) Converted Date column into proper datetime format
+  
+2) Removed duplicate/unusable records
+ 
+3) Standardized feature names
+
+4) Filtered missing unemployment values
 
 Exploratory Data Analysis
+
 1️) Trend visualization across states
+
 2️) State-wise unemployment comparison
+
 3️) Pre-Covid vs During-Covid trend difference
+
 4️) National monthly unemployment rate change
 
 Findings / Insights
